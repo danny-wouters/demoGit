@@ -9,8 +9,8 @@ namespace DemoApp_Models
         public int Id { get; set; }
         public string Code { get; set; }
         public string Name { get; set; }
+        public string Teaser { get; set; }
         public string Description { get; set; }
-        public string FullDescription { get; set; }
         public int Duration { get; set; }
         public double Price { get; set; }
         public string RequiredSkills { get; set; }
