@@ -13,5 +13,6 @@ namespace DemoApp_Models
         public string FullDescription { get; set; }
         public int Duration { get; set; }
         public double Price { get; set; }
+        public int MaximumStudents { get; set; }
     }
 }
