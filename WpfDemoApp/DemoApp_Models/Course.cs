@@ -14,5 +14,6 @@ namespace DemoApp_Models
         public int Duration { get; set; }
         public double Price { get; set; }
         public string RequiredSkills { get; set; }
+        public int MaximumStudents { get; set; }
     }
 }
