@@ -11,5 +11,6 @@ namespace DemoApp_Models
         public string Description { get; set; }
         public string FullDescription { get; set; }
         public int Duration { get; set; }
+        public double Price { get; set; }
     }
 }
