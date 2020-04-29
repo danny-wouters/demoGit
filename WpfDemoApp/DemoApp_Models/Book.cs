@@ -9,6 +9,6 @@ namespace DemoApp_Models
         public string Authors { get; set; }
         public string Genre { get; set; }
         public string ISBN { get; set; }
-        public int PageCount { get; set; }
+        public int TotalPages { get; set; }
     }
 }
